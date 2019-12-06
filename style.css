@@ -22,11 +22,6 @@
   padding: 0 10px;
   text-transform: uppercase;
   text-decoration: none;
-
-/*   width: 45px;
-height: 35px;
-position: relative;
- */
 }
 .menu__links-item:hover {
   text-decoration: underline;
@@ -68,10 +63,9 @@ position: relative;
   .menu__icon{
     display: inline-block;
   }
-  
-  .menu__links {
+  .heading__menu {
     position: fixed;
-    display: block;
+    display: none;
     top: 0;
     right: 0;
     left: 0;
