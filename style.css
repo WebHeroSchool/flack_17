@@ -89,15 +89,24 @@
  .heading {
   font-size: 20px;
  }
- @media (min-width:641px) {
+ @media (min-width: 320px) {
  .heading {
   font-size: 25px;}}
-  @media (min-width:961px) {
+  @media (min-width:480px) {
  .heading {
   font-size: 30px;}}
-  @media (min-width:1025px) {
+  @media (min-width:600px) {
  .heading {
   font-size: 35px;}}
-  @media (min-width:1281px) {
+  @media (min-width:768px) {
  .heading {
   font-size: 40px;}}
+    @media (min-width:1024px) {
+ .heading {
+  font-size: 45px;}}
+    @media (min-width:1280px) {
+ .heading {
+  font-size: 50px;}}
+    @media (min-width:1366px) {
+ .heading {
+  font-size: 55px;}}
